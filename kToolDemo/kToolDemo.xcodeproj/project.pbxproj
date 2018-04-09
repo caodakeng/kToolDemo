@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104CE3983EDFF7EB228A6E2D /* libPods-kToolDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E72C8E0B4873ED7D998F8369 /* libPods-kToolDemo.a */; };
+		426A91AD207A2B90003A7A8B /* kToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A91AC207A2B90003A7A8B /* kToolDemoTests.m */; };
+		426A91B8207A2B90003A7A8B /* kToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A91B7207A2B90003A7A8B /* kToolDemoUITests.m */; };
+		426A91CA207A2C2D003A7A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426A91C7207A2C2D003A7A8B /* Assets.xcassets */; };
+		426A91CB207A2C2D003A7A8B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 426A91C8207A2C2D003A7A8B /* Info.plist */; };
+		426A91CC207A2C2D003A7A8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A91C9207A2C2D003A7A8B /* main.m */; };
+		426A91D2207A2C8F003A7A8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A91D1207A2C8F003A7A8B /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		426A91A9207A2B90003A7A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426A9188207A2B90003A7A8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426A918F207A2B90003A7A8B;
+			remoteInfo = kToolDemo;
+		};
+		426A91B4207A2B90003A7A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426A9188207A2B90003A7A8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426A918F207A2B90003A7A8B;
+			remoteInfo = kToolDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		426A9190207A2B90003A7A8B /* kToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		426A91A8207A2B90003A7A8B /* kToolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kToolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426A91AC207A2B90003A7A8B /* kToolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kToolDemoTests.m; sourceTree = "<group>"; };
+		426A91AE207A2B90003A7A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426A91B3207A2B90003A7A8B /* kToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426A91B7207A2B90003A7A8B /* kToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kToolDemoUITests.m; sourceTree = "<group>"; };
+		426A91B9207A2B90003A7A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426A91C7207A2C2D003A7A8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		426A91C8207A2C2D003A7A8B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426A91C9207A2C2D003A7A8B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		426A91D0207A2C8F003A7A8B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		426A91D1207A2C8F003A7A8B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E97BFCC823CFA37BDF8236D /* Pods-kToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kToolDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-kToolDemo/Pods-kToolDemo.release.xcconfig"; sourceTree = "<group>"; };
+		97B8DE11583205A4FDF0331F /* Pods-kToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kToolDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kToolDemo/Pods-kToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E72C8E0B4873ED7D998F8369 /* libPods-kToolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kToolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		426A918D207A2B90003A7A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104CE3983EDFF7EB228A6E2D /* libPods-kToolDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426A91A5207A2B90003A7A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426A91B0207A2B90003A7A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		426A9187207A2B90003A7A8B = {
+			isa = PBXGroup;
+			children = (
+				426A9192207A2B90003A7A8B /* kToolDemo */,
+				426A91AB207A2B90003A7A8B /* kToolDemoTests */,
+				426A91B6207A2B90003A7A8B /* kToolDemoUITests */,
+				426A9191207A2B90003A7A8B /* Products */,
+				9EE9F0CD23DE71525CCE26F7 /* Pods */,
+				7D8173263984610C5A378B76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		426A9191207A2B90003A7A8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				426A9190207A2B90003A7A8B /* kToolDemo.app */,
+				426A91A8207A2B90003A7A8B /* kToolDemoTests.xctest */,
+				426A91B3207A2B90003A7A8B /* kToolDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		426A9192207A2B90003A7A8B /* kToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				426A91C5207A2C2D003A7A8B /* kClass */,
+				426A91C6207A2C2D003A7A8B /* Supporting Files */,
+			);
+			path = kToolDemo;
+			sourceTree = "<group>";
+		};
+		426A91AB207A2B90003A7A8B /* kToolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				426A91AC207A2B90003A7A8B /* kToolDemoTests.m */,
+				426A91AE207A2B90003A7A8B /* Info.plist */,
+			);
+			path = kToolDemoTests;
+			sourceTree = "<group>";
+		};
+		426A91B6207A2B90003A7A8B /* kToolDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				426A91B7207A2B90003A7A8B /* kToolDemoUITests.m */,
+				426A91B9207A2B90003A7A8B /* Info.plist */,
+			);
+			path = kToolDemoUITests;
+			sourceTree = "<group>";
+		};
+		426A91C5207A2C2D003A7A8B /* kClass */ = {
+			isa = PBXGroup;
+			children = (
+				426A91CE207A2C6D003A7A8B /* kItem */,
+				426A91CD207A2C6D003A7A8B /* kCategory */,
+			);
+			path = kClass;
+			sourceTree = "<group>";
+		};
+		426A91C6207A2C2D003A7A8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				426A91C7207A2C2D003A7A8B /* Assets.xcassets */,
+				426A91C8207A2C2D003A7A8B /* Info.plist */,
+				426A91C9207A2C2D003A7A8B /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		426A91CD207A2C6D003A7A8B /* kCategory */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = kCategory;
+			sourceTree = "<group>";
+		};
+		426A91CE207A2C6D003A7A8B /* kItem */ = {
+			isa = PBXGroup;
+			children = (
+				426A91CF207A2C6D003A7A8B /* kMain */,
+			);
+			path = kItem;
+			sourceTree = "<group>";
+		};
+		426A91CF207A2C6D003A7A8B /* kMain */ = {
+			isa = PBXGroup;
+			children = (
+				426A91D0207A2C8F003A7A8B /* AppDelegate.h */,
+				426A91D1207A2C8F003A7A8B /* AppDelegate.m */,
+			);
+			path = kMain;
+			sourceTree = "<group>";
+		};
+		7D8173263984610C5A378B76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E72C8E0B4873ED7D998F8369 /* libPods-kToolDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EE9F0CD23DE71525CCE26F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97B8DE11583205A4FDF0331F /* Pods-kToolDemo.debug.xcconfig */,
+				5E97BFCC823CFA37BDF8236D /* Pods-kToolDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		426A918F207A2B90003A7A8B /* kToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426A91BC207A2B90003A7A8B /* Build configuration list for PBXNativeTarget "kToolDemo" */;
+			buildPhases = (
+				0EBE5A90313FEB417D732C98 /* [CP] Check Pods Manifest.lock */,
+				426A918C207A2B90003A7A8B /* Sources */,
+				426A918D207A2B90003A7A8B /* Frameworks */,
+				426A918E207A2B90003A7A8B /* Resources */,
+				1AD307C9DB2DF7E642A7B550 /* [CP] Embed Pods Frameworks */,
+				4F75C1024292562E3F7AE4C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kToolDemo;
+			productName = kToolDemo;
+			productReference = 426A9190207A2B90003A7A8B /* kToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		426A91A7207A2B90003A7A8B /* kToolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426A91BF207A2B90003A7A8B /* Build configuration list for PBXNativeTarget "kToolDemoTests" */;
+			buildPhases = (
+				426A91A4207A2B90003A7A8B /* Sources */,
+				426A91A5207A2B90003A7A8B /* Frameworks */,
+				426A91A6207A2B90003A7A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426A91AA207A2B90003A7A8B /* PBXTargetDependency */,
+			);
+			name = kToolDemoTests;
+			productName = kToolDemoTests;
+			productReference = 426A91A8207A2B90003A7A8B /* kToolDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		426A91B2207A2B90003A7A8B /* kToolDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426A91C2207A2B90003A7A8B /* Build configuration list for PBXNativeTarget "kToolDemoUITests" */;
+			buildPhases = (
+				426A91AF207A2B90003A7A8B /* Sources */,
+				426A91B0207A2B90003A7A8B /* Frameworks */,
+				426A91B1207A2B90003A7A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426A91B5207A2B90003A7A8B /* PBXTargetDependency */,
+			);
+			name = kToolDemoUITests;
+			productName = kToolDemoUITests;
+			productReference = 426A91B3207A2B90003A7A8B /* kToolDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		426A9188207A2B90003A7A8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CX;
+				TargetAttributes = {
+					426A918F207A2B90003A7A8B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					426A91A7207A2B90003A7A8B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 426A918F207A2B90003A7A8B;
+					};
+					426A91B2207A2B90003A7A8B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 426A918F207A2B90003A7A8B;
+					};
+				};
+			};
+			buildConfigurationList = 426A918B207A2B90003A7A8B /* Build configuration list for PBXProject "kToolDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 426A9187207A2B90003A7A8B;
+			productRefGroup = 426A9191207A2B90003A7A8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				426A918F207A2B90003A7A8B /* kToolDemo */,
+				426A91A7207A2B90003A7A8B /* kToolDemoTests */,
+				426A91B2207A2B90003A7A8B /* kToolDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		426A918E207A2B90003A7A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426A91CB207A2C2D003A7A8B /* Info.plist in Resources */,
+				426A91CA207A2C2D003A7A8B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426A91A6207A2B90003A7A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426A91B1207A2B90003A7A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EBE5A90313FEB417D732C98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kToolDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AD307C9DB2DF7E642A7B550 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kToolDemo/Pods-kToolDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F75C1024292562E3F7AE4C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kToolDemo/Pods-kToolDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		426A918C207A2B90003A7A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426A91CC207A2C2D003A7A8B /* main.m in Sources */,
+				426A91D2207A2C8F003A7A8B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426A91A4207A2B90003A7A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426A91AD207A2B90003A7A8B /* kToolDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426A91AF207A2B90003A7A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426A91B8207A2B90003A7A8B /* kToolDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		426A91AA207A2B90003A7A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426A918F207A2B90003A7A8B /* kToolDemo */;
+			targetProxy = 426A91A9207A2B90003A7A8B /* PBXContainerItemProxy */;
+		};
+		426A91B5207A2B90003A7A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426A918F207A2B90003A7A8B /* kToolDemo */;
+			targetProxy = 426A91B4207A2B90003A7A8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		426A91BA207A2B90003A7A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		426A91BB207A2B90003A7A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		426A91BD207A2B90003A7A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B8DE11583205A4FDF0331F /* Pods-kToolDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBRAU6PH87;
+				INFOPLIST_FILE = "kToolDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.kToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		426A91BE207A2B90003A7A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E97BFCC823CFA37BDF8236D /* Pods-kToolDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BBRAU6PH87;
+				INFOPLIST_FILE = "kToolDemo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.kToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		426A91C0207A2B90003A7A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.kToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kToolDemo.app/kToolDemo";
+			};
+			name = Debug;
+		};
+		426A91C1207A2B90003A7A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kToolDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.kToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kToolDemo.app/kToolDemo";
+			};
+			name = Release;
+		};
+		426A91C3207A2B90003A7A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.kToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kToolDemo;
+			};
+			name = Debug;
+		};
+		426A91C4207A2B90003A7A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = kToolDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cx.kToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kToolDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426A918B207A2B90003A7A8B /* Build configuration list for PBXProject "kToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426A91BA207A2B90003A7A8B /* Debug */,
+				426A91BB207A2B90003A7A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426A91BC207A2B90003A7A8B /* Build configuration list for PBXNativeTarget "kToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426A91BD207A2B90003A7A8B /* Debug */,
+				426A91BE207A2B90003A7A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426A91BF207A2B90003A7A8B /* Build configuration list for PBXNativeTarget "kToolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426A91C0207A2B90003A7A8B /* Debug */,
+				426A91C1207A2B90003A7A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426A91C2207A2B90003A7A8B /* Build configuration list for PBXNativeTarget "kToolDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426A91C3207A2B90003A7A8B /* Debug */,
+				426A91C4207A2B90003A7A8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 426A9188207A2B90003A7A8B /* Project object */;
+}
