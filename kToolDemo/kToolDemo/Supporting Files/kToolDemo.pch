@@ -1,0 +1,55 @@
+//
+//  kToolDemo.pch
+//  kToolDemo
+//
+//  Created by 曹翔 on 2018/4/9.
+//  Copyright © 2018年 CX. All rights reserved.
+//
+
+#ifndef kToolDemo_pch
+#define kToolDemo_pch
+
+#ifdef __OBJC__  //在此处作出判断是否OC，之后倒入下面头文件
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#import "KCategory.h"
+#import "KThirdFile.h"
+
+
+#endif
+
+
+#define AdjustsScrollViewInsetNever(controller,view) if(@available(iOS 11.0, *)) {view.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;} else if([controller isKindOfClass:[UIViewController class]]) {controller.automaticallyAdjustsScrollViewInsets = false;}
+
+#define WEAK_SELF  __weak typeof(self) weakSelf = self;
+
+#define kSCREEN_BOUNDS    [UIScreen mainScreen].bounds
+
+/** 获得window */
+#define kKeyWindow          [UIApplication sharedApplication].keyWindow
+/** 获得屏幕宽度 */
+#define SCREEN_WIDTH        kSCREEN_BOUNDS.size.width
+/** 获得屏幕高度 */
+#define SCREEN_HEIGHT       kSCREEN_BOUNDS.size.height
+/** 获得状态栏高度 */
+#define State_Bar_H         [[UIApplication sharedApplication] statusBarFrame].size.height
+/** 获得导航高度 */
+#define NavBar_H            (float)(44+State_Bar_H)
+/** 获得底部安全高度 */
+#define SafeAreaBottomHeight (float)(SCREEN_HEIGHT==812.0?34:0)
+/** 获得工具条高度 */
+#define TabBar_H            (float)(49+SafeAreaBottomHeight)
+/** 可视区域-不包括导航条 */
+#define kSCREEN_SHOW_N_H    SCREEN_HEIGHT-NavBar_H-SafeAreaBottomHeight
+/** 可视区域-不包括工具条 */
+#define kSCREEN_SHOW_T_H    SCREEN_HEIGHT-TabBar_H
+/** 可视区域-不包括安全区域 */
+#define kSCREEN_SHOW_S_H    SCREEN_HEIGHT-SafeAreaBottomHeight
+
+
+#define White_COLOR_CODE [UIColor whiteColor]                        //白色色调
+
+#endif /* kToolDemo_pch */

@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		104CE3983EDFF7EB228A6E2D /* libPods-kToolDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E72C8E0B4873ED7D998F8369 /* libPods-kToolDemo.a */; };
+		4233A3B1207B392B001E4735 /* KRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3B0207B392B001E4735 /* KRootTabBarController.m */; };
+		4233A3B5207B3D10001E4735 /* KBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3B4207B3D10001E4735 /* KBaseViewController.m */; };
+		4233A3B8207B3D4B001E4735 /* KHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3B7207B3D4B001E4735 /* KHomeVC.m */; };
+		4233A3BE207B45DD001E4735 /* KItemSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3BD207B45DD001E4735 /* KItemSecondVC.m */; };
+		4233A3C1207B45F0001E4735 /* KItemThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3C0207B45F0001E4735 /* KItemThirdVC.m */; };
+		4233A3C4207B4603001E4735 /* KItemMeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3C3207B4603001E4735 /* KItemMeVC.m */; };
+		4233A3C7207B4B10001E4735 /* KNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3C6207B4B10001E4735 /* KNavigationVC.m */; };
+		4233A3CA207B5726001E4735 /* NSObject+KCommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3C9207B5726001E4735 /* NSObject+KCommonTools.m */; };
+		4233A3D1207B586B001E4735 /* NSObject+KAddBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3D0207B586B001E4735 /* NSObject+KAddBtn.m */; };
+		4233A3D7207B6A40001E4735 /* KAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3D6207B6A40001E4735 /* KAccountModel.m */; };
+		4233A3DA207B6AC4001E4735 /* KLoginManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3D9207B6AC4001E4735 /* KLoginManage.m */; };
 		426A91AD207A2B90003A7A8B /* kToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A91AC207A2B90003A7A8B /* kToolDemoTests.m */; };
 		426A91B8207A2B90003A7A8B /* kToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A91B7207A2B90003A7A8B /* kToolDemoUITests.m */; };
 		426A91CA207A2C2D003A7A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426A91C7207A2C2D003A7A8B /* Assets.xcassets */; };
@@ -34,6 +45,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4233A3AA207B1EB7001E4735 /* kToolDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kToolDemo.pch; sourceTree = "<group>"; };
+		4233A3AF207B392B001E4735 /* KRootTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRootTabBarController.h; sourceTree = "<group>"; };
+		4233A3B0207B392B001E4735 /* KRootTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KRootTabBarController.m; sourceTree = "<group>"; };
+		4233A3B3207B3D10001E4735 /* KBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBaseViewController.h; sourceTree = "<group>"; };
+		4233A3B4207B3D10001E4735 /* KBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBaseViewController.m; sourceTree = "<group>"; };
+		4233A3B6207B3D4B001E4735 /* KHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHomeVC.h; sourceTree = "<group>"; };
+		4233A3B7207B3D4B001E4735 /* KHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHomeVC.m; sourceTree = "<group>"; };
+		4233A3BC207B45DD001E4735 /* KItemSecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KItemSecondVC.h; sourceTree = "<group>"; };
+		4233A3BD207B45DD001E4735 /* KItemSecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KItemSecondVC.m; sourceTree = "<group>"; };
+		4233A3BF207B45F0001E4735 /* KItemThirdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KItemThirdVC.h; sourceTree = "<group>"; };
+		4233A3C0207B45F0001E4735 /* KItemThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KItemThirdVC.m; sourceTree = "<group>"; };
+		4233A3C2207B4603001E4735 /* KItemMeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KItemMeVC.h; sourceTree = "<group>"; };
+		4233A3C3207B4603001E4735 /* KItemMeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KItemMeVC.m; sourceTree = "<group>"; };
+		4233A3C5207B4B10001E4735 /* KNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNavigationVC.h; sourceTree = "<group>"; };
+		4233A3C6207B4B10001E4735 /* KNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNavigationVC.m; sourceTree = "<group>"; };
+		4233A3C8207B5726001E4735 /* NSObject+KCommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KCommonTools.h"; sourceTree = "<group>"; };
+		4233A3C9207B5726001E4735 /* NSObject+KCommonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KCommonTools.m"; sourceTree = "<group>"; };
+		4233A3CB207B5749001E4735 /* KCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KCategory.h; sourceTree = "<group>"; };
+		4233A3CF207B586B001E4735 /* NSObject+KAddBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KAddBtn.h"; sourceTree = "<group>"; };
+		4233A3D0207B586B001E4735 /* NSObject+KAddBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KAddBtn.m"; sourceTree = "<group>"; };
+		4233A3D2207B5CDC001E4735 /* KThirdFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KThirdFile.h; sourceTree = "<group>"; };
+		4233A3D5207B6A40001E4735 /* KAccountModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAccountModel.h; sourceTree = "<group>"; };
+		4233A3D6207B6A40001E4735 /* KAccountModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAccountModel.m; sourceTree = "<group>"; };
+		4233A3D8207B6AC4001E4735 /* KLoginManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLoginManage.h; sourceTree = "<group>"; };
+		4233A3D9207B6AC4001E4735 /* KLoginManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLoginManage.m; sourceTree = "<group>"; };
 		426A9190207A2B90003A7A8B /* kToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		426A91A8207A2B90003A7A8B /* kToolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kToolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		426A91AC207A2B90003A7A8B /* kToolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kToolDemoTests.m; sourceTree = "<group>"; };
@@ -77,6 +113,131 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4233A3A6207B0588001E4735 /* KItemThird */ = {
+			isa = PBXGroup;
+			children = (
+				4233A3BA207B4534001E4735 /* controller */,
+			);
+			path = KItemThird;
+			sourceTree = "<group>";
+		};
+		4233A3A7207B0588001E4735 /* kItmeMe */ = {
+			isa = PBXGroup;
+			children = (
+				4233A3BB207B453B001E4735 /* controller */,
+			);
+			path = kItmeMe;
+			sourceTree = "<group>";
+		};
+		4233A3A8207B0588001E4735 /* kItemHome */ = {
+			isa = PBXGroup;
+			children = (
+				4233A3B2207B3CE2001E4735 /* controller */,
+			);
+			path = kItemHome;
+			sourceTree = "<group>";
+		};
+		4233A3A9207B0588001E4735 /* kItemSecond */ = {
+			isa = PBXGroup;
+			children = (
+				4233A3B9207B452D001E4735 /* controller */,
+			);
+			path = kItemSecond;
+			sourceTree = "<group>";
+		};
+		4233A3AC207B3852001E4735 /* kBaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				4233A3B3207B3D10001E4735 /* KBaseViewController.h */,
+				4233A3B4207B3D10001E4735 /* KBaseViewController.m */,
+			);
+			path = kBaseVC;
+			sourceTree = "<group>";
+		};
+		4233A3AD207B3852001E4735 /* kBaseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = kBaseView;
+			sourceTree = "<group>";
+		};
+		4233A3AE207B3853001E4735 /* kBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = kBaseModel;
+			sourceTree = "<group>";
+		};
+		4233A3B2207B3CE2001E4735 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4233A3B6207B3D4B001E4735 /* KHomeVC.h */,
+				4233A3B7207B3D4B001E4735 /* KHomeVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4233A3B9207B452D001E4735 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4233A3BC207B45DD001E4735 /* KItemSecondVC.h */,
+				4233A3BD207B45DD001E4735 /* KItemSecondVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4233A3BA207B4534001E4735 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4233A3BF207B45F0001E4735 /* KItemThirdVC.h */,
+				4233A3C0207B45F0001E4735 /* KItemThirdVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4233A3BB207B453B001E4735 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				4233A3C2207B4603001E4735 /* KItemMeVC.h */,
+				4233A3C3207B4603001E4735 /* KItemMeVC.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		4233A3CC207B57DF001E4735 /* kResources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = kResources;
+			sourceTree = "<group>";
+		};
+		4233A3CE207B5803001E4735 /* kTools */ = {
+			isa = PBXGroup;
+			children = (
+				4233A3D2207B5CDC001E4735 /* KThirdFile.h */,
+			);
+			path = kTools;
+			sourceTree = "<group>";
+		};
+		4233A3D3207B6A24001E4735 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				4233A3D4207B6A24001E4735 /* model */,
+				4233A3D8207B6AC4001E4735 /* KLoginManage.h */,
+				4233A3D9207B6AC4001E4735 /* KLoginManage.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		4233A3D4207B6A24001E4735 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4233A3D5207B6A40001E4735 /* KAccountModel.h */,
+				4233A3D6207B6A40001E4735 /* KAccountModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		426A9187207A2B90003A7A8B = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +292,8 @@
 			children = (
 				426A91CE207A2C6D003A7A8B /* kItem */,
 				426A91CD207A2C6D003A7A8B /* kCategory */,
+				4233A3CE207B5803001E4735 /* kTools */,
+				4233A3CC207B57DF001E4735 /* kResources */,
 			);
 			path = kClass;
 			sourceTree = "<group>";
@@ -141,6 +304,7 @@
 				426A91C7207A2C2D003A7A8B /* Assets.xcassets */,
 				426A91C8207A2C2D003A7A8B /* Info.plist */,
 				426A91C9207A2C2D003A7A8B /* main.m */,
+				4233A3AA207B1EB7001E4735 /* kToolDemo.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -148,6 +312,11 @@
 		426A91CD207A2C6D003A7A8B /* kCategory */ = {
 			isa = PBXGroup;
 			children = (
+				4233A3CB207B5749001E4735 /* KCategory.h */,
+				4233A3C8207B5726001E4735 /* NSObject+KCommonTools.h */,
+				4233A3C9207B5726001E4735 /* NSObject+KCommonTools.m */,
+				4233A3CF207B586B001E4735 /* NSObject+KAddBtn.h */,
+				4233A3D0207B586B001E4735 /* NSObject+KAddBtn.m */,
 			);
 			path = kCategory;
 			sourceTree = "<group>";
@@ -156,6 +325,13 @@
 			isa = PBXGroup;
 			children = (
 				426A91CF207A2C6D003A7A8B /* kMain */,
+				4233A3A8207B0588001E4735 /* kItemHome */,
+				4233A3A9207B0588001E4735 /* kItemSecond */,
+				4233A3A6207B0588001E4735 /* KItemThird */,
+				4233A3A7207B0588001E4735 /* kItmeMe */,
+				4233A3AC207B3852001E4735 /* kBaseVC */,
+				4233A3AE207B3853001E4735 /* kBaseModel */,
+				4233A3AD207B3852001E4735 /* kBaseView */,
 			);
 			path = kItem;
 			sourceTree = "<group>";
@@ -163,8 +339,13 @@
 		426A91CF207A2C6D003A7A8B /* kMain */ = {
 			isa = PBXGroup;
 			children = (
+				4233A3D3207B6A24001E4735 /* login */,
 				426A91D0207A2C8F003A7A8B /* AppDelegate.h */,
 				426A91D1207A2C8F003A7A8B /* AppDelegate.m */,
+				4233A3AF207B392B001E4735 /* KRootTabBarController.h */,
+				4233A3B0207B392B001E4735 /* KRootTabBarController.m */,
+				4233A3C5207B4B10001E4735 /* KNavigationVC.h */,
+				4233A3C6207B4B10001E4735 /* KNavigationVC.m */,
 			);
 			path = kMain;
 			sourceTree = "<group>";
@@ -356,9 +537,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kToolDemo/Pods-kToolDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -372,8 +556,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4233A3DA207B6AC4001E4735 /* KLoginManage.m in Sources */,
+				4233A3B8207B3D4B001E4735 /* KHomeVC.m in Sources */,
+				4233A3D1207B586B001E4735 /* NSObject+KAddBtn.m in Sources */,
 				426A91CC207A2C2D003A7A8B /* main.m in Sources */,
+				4233A3D7207B6A40001E4735 /* KAccountModel.m in Sources */,
+				4233A3CA207B5726001E4735 /* NSObject+KCommonTools.m in Sources */,
+				4233A3B5207B3D10001E4735 /* KBaseViewController.m in Sources */,
+				4233A3C4207B4603001E4735 /* KItemMeVC.m in Sources */,
+				4233A3BE207B45DD001E4735 /* KItemSecondVC.m in Sources */,
+				4233A3B1207B392B001E4735 /* KRootTabBarController.m in Sources */,
+				4233A3C7207B4B10001E4735 /* KNavigationVC.m in Sources */,
 				426A91D2207A2C8F003A7A8B /* AppDelegate.m in Sources */,
+				4233A3C1207B45F0001E4735 /* KItemThirdVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +716,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BBRAU6PH87;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "./kToolDemo/Supporting Files/ktoolDemo.pch";
 				INFOPLIST_FILE = "kToolDemo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -538,6 +735,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BBRAU6PH87;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "./kToolDemo/Supporting Files/ktoolDemo.pch";
 				INFOPLIST_FILE = "kToolDemo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

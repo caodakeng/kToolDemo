@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "KRootTabBarController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    if (@available(iOS 11.0, *)){
+        [[UIScrollView appearance] setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
+    }
+    
+    self.window = [[UIWindow alloc] initWithFrame:kSCREEN_BOUNDS];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    self.window.rootViewController = [[KRootTabBarController alloc] init];
+    
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
