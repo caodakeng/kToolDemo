@@ -24,7 +24,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [UITabBar appearance].tintColor = [UIColor redColor];
+    
     [self addChildVC];
 }
 
@@ -37,9 +37,26 @@
 
 -(void)addChildVC:(UIViewController*)vc title:(NSString *)title index:(NSInteger)index{
     vc.title = title;
-    vc.tabBarItem.image = [UIImage imageNamed:[NSString stringWithFormat:@"tabbar_item%ld_normal_img",index]];
-    vc.tabBarItem.selectedImage = [UIImage imageNamed:[NSString stringWithFormat:@"tabbar_item%ld_selected_img",index]];
+    vc.tabBarItem.image = [UIImage imageNamed:[NSString stringWithFormat:@"tabbar_item%ld_normal_img",(long)index]];
+    vc.tabBarItem.selectedImage = [UIImage imageNamed:[NSString stringWithFormat:@"tabbar_item%ld_selected_img",(long)index]];
     [self addChildViewController:[[KNavigationVC alloc] initWithRootViewController:vc]];
+}
+
+-(void)setAppearance{
+    //改变颜色
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:kHexColor(@"0x000000")}
+                                             forState:UIControlStateNormal];
+    [[UITabBarItem appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:kHexColor(@"0xF5A623")}
+                                             forState:UIControlStateSelected];
+    NSDictionary *navTitleArr = [NSDictionary dictionaryWithObjectsAndKeys:
+                                 [UIFont fontWithName:@"PingFang SC" size:18],NSFontAttributeName,
+                                 [UIColor redColor],NSForegroundColorAttributeName,
+                                 //                                 [NSValue valueWithCGSize:CGSizeMake(2.0, 2.0)], NSShadowAttributeName ,
+                                 //                                 [UIColor whiteColor],NSShadowAttributeName ,
+                                 nil];
+    [[UINavigationBar appearance] setTitleTextAttributes:navTitleArr];
+    
+    [[UIBarButtonItem appearance]setTintColor:[UIColor blackColor]];
 }
 
 - (void)didReceiveMemoryWarning {

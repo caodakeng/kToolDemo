@@ -17,8 +17,27 @@
 
 #import "KCategory.h"
 #import "KThirdFile.h"
+#import "KToolManager.h"
 
 
+#endif
+
+#ifdef DEBUG
+
+//====================================================
+// NSLog的一个更好的版本。
+// __FILE__返回当前文件的绝对路径，__LINE__返回展开该宏时在文件中的行数，__func__是该宏所在scope的函数名称。
+// __VA_ARGS__表示的是宏定义中的...中的所有剩余参数
+//====================================================
+#define NSLog(format, ...)  do {                                                                            \
+printf("<%s : %d> %s\n",                                           \
+[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String],  \
+__LINE__, [[NSString stringWithUTF8String:__FUNCTION__] UTF8String]);                                                        \
+(NSLog)((format), ##__VA_ARGS__);                                           \
+printf("---------- ---------- ----------\n");                      \
+} while (0)
+#else
+#define NSLog(...) {}
 #endif
 
 
@@ -27,6 +46,9 @@
 #define WEAK_SELF  __weak typeof(self) weakSelf = self;
 
 #define kSCREEN_BOUNDS    [UIScreen mainScreen].bounds
+
+/** 获取系统版本 */
+#define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
 
 /** 获得window */
 #define kKeyWindow          [UIApplication sharedApplication].keyWindow
@@ -49,6 +71,8 @@
 /** 可视区域-不包括安全区域 */
 #define kSCREEN_SHOW_S_H    SCREEN_HEIGHT-SafeAreaBottomHeight
 
+
+#define kHexColor(hex)   [KColorManager colorWithHexString:hex]
 
 #define White_COLOR_CODE [UIColor whiteColor]                        //白色色调
 

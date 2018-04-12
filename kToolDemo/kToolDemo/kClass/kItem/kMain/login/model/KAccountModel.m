@@ -18,19 +18,6 @@
     return @{@"ID":@"id"};
 }
 
-+ (instancetype)accountWithDict:(NSDictionary *)dict
-{
-    return [[self alloc] initWithDict:dict];
-}
-
-- (id)initWithDict:(NSDictionary *)dict
-{
-    if (self = [super init]) {
-        [self setValuesForKeysWithDictionary:dict];
-    }
-    return self;
-}
-
 - (id)initWithCoder:(NSCoder *)aDecoder{
     if (self = [super init]) {
         self.name = [aDecoder decodeObjectForKey:@"name"];

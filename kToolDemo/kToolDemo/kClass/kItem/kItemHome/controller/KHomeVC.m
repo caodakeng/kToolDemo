@@ -16,7 +16,35 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    NSString *str = [self getStr];
+    NSLog(@"%@",str);
+}
+
+-(NSString *)getStr{
+    dispatch_semaphore_t sema = dispatch_semaphore_create(0);
+    dispatch_queue_t quene = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    NSLog(@"0");
+    dispatch_async(quene, ^{
+        NSLog(@"00");
+        sleep(1);
+        NSLog(@"3");
+        dispatch_semaphore_signal(sema);
+        NSLog(@"4");
+        sleep(1);
+        NSLog(@"5");
+        dispatch_semaphore_signal(sema);
+        NSLog(@"6");
+        
+    });
+    NSLog(@"1");
+    dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
+    NSLog(@"7");
+    dispatch_semaphore_wait(sema, DISPATCH_TIME_FOREVER);
+    NSLog(@"8");
+    dispatch_semaphore_wait(sema, dispatch_time(DISPATCH_TIME_NOW, (int64_t)(NSEC_PER_SEC*10)));
+
+    return @"qwer";
 }
 
 - (void)didReceiveMemoryWarning {

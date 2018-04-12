@@ -19,6 +19,9 @@
 		4233A3D1207B586B001E4735 /* NSObject+KAddBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3D0207B586B001E4735 /* NSObject+KAddBtn.m */; };
 		4233A3D7207B6A40001E4735 /* KAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3D6207B6A40001E4735 /* KAccountModel.m */; };
 		4233A3DA207B6AC4001E4735 /* KLoginManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4233A3D9207B6AC4001E4735 /* KLoginManage.m */; };
+		423E936B207DBAD8009FB5D0 /* KColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 423E936A207DBAD8009FB5D0 /* KColorManager.m */; };
+		423E936F207DC28B009FB5D0 /* KPublicFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 423E936E207DC28B009FB5D0 /* KPublicFunctions.m */; };
+		423E9372207DC452009FB5D0 /* KNSObjectAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 423E9371207DC452009FB5D0 /* KNSObjectAdditions.m */; };
 		426A91AD207A2B90003A7A8B /* kToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A91AC207A2B90003A7A8B /* kToolDemoTests.m */; };
 		426A91B8207A2B90003A7A8B /* kToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A91B7207A2B90003A7A8B /* kToolDemoUITests.m */; };
 		426A91CA207A2C2D003A7A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426A91C7207A2C2D003A7A8B /* Assets.xcassets */; };
@@ -70,6 +73,13 @@
 		4233A3D6207B6A40001E4735 /* KAccountModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAccountModel.m; sourceTree = "<group>"; };
 		4233A3D8207B6AC4001E4735 /* KLoginManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLoginManage.h; sourceTree = "<group>"; };
 		4233A3D9207B6AC4001E4735 /* KLoginManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLoginManage.m; sourceTree = "<group>"; };
+		423E9369207DBAD8009FB5D0 /* KColorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KColorManager.h; sourceTree = "<group>"; };
+		423E936A207DBAD8009FB5D0 /* KColorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KColorManager.m; sourceTree = "<group>"; };
+		423E936C207DBC1B009FB5D0 /* KToolManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KToolManager.h; sourceTree = "<group>"; };
+		423E936D207DC28B009FB5D0 /* KPublicFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KPublicFunctions.h; sourceTree = "<group>"; };
+		423E936E207DC28B009FB5D0 /* KPublicFunctions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KPublicFunctions.m; sourceTree = "<group>"; };
+		423E9370207DC452009FB5D0 /* KNSObjectAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNSObjectAdditions.h; sourceTree = "<group>"; };
+		423E9371207DC452009FB5D0 /* KNSObjectAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNSObjectAdditions.m; sourceTree = "<group>"; };
 		426A9190207A2B90003A7A8B /* kToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		426A91A8207A2B90003A7A8B /* kToolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kToolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		426A91AC207A2B90003A7A8B /* kToolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kToolDemoTests.m; sourceTree = "<group>"; };
@@ -215,6 +225,11 @@
 			isa = PBXGroup;
 			children = (
 				4233A3D2207B5CDC001E4735 /* KThirdFile.h */,
+				423E936C207DBC1B009FB5D0 /* KToolManager.h */,
+				423E9369207DBAD8009FB5D0 /* KColorManager.h */,
+				423E936A207DBAD8009FB5D0 /* KColorManager.m */,
+				423E936D207DC28B009FB5D0 /* KPublicFunctions.h */,
+				423E936E207DC28B009FB5D0 /* KPublicFunctions.m */,
 			);
 			path = kTools;
 			sourceTree = "<group>";
@@ -317,6 +332,8 @@
 				4233A3C9207B5726001E4735 /* NSObject+KCommonTools.m */,
 				4233A3CF207B586B001E4735 /* NSObject+KAddBtn.h */,
 				4233A3D0207B586B001E4735 /* NSObject+KAddBtn.m */,
+				423E9370207DC452009FB5D0 /* KNSObjectAdditions.h */,
+				423E9371207DC452009FB5D0 /* KNSObjectAdditions.m */,
 			);
 			path = kCategory;
 			sourceTree = "<group>";
@@ -559,6 +576,7 @@
 				4233A3DA207B6AC4001E4735 /* KLoginManage.m in Sources */,
 				4233A3B8207B3D4B001E4735 /* KHomeVC.m in Sources */,
 				4233A3D1207B586B001E4735 /* NSObject+KAddBtn.m in Sources */,
+				423E936B207DBAD8009FB5D0 /* KColorManager.m in Sources */,
 				426A91CC207A2C2D003A7A8B /* main.m in Sources */,
 				4233A3D7207B6A40001E4735 /* KAccountModel.m in Sources */,
 				4233A3CA207B5726001E4735 /* NSObject+KCommonTools.m in Sources */,
@@ -568,6 +586,8 @@
 				4233A3B1207B392B001E4735 /* KRootTabBarController.m in Sources */,
 				4233A3C7207B4B10001E4735 /* KNavigationVC.m in Sources */,
 				426A91D2207A2C8F003A7A8B /* AppDelegate.m in Sources */,
+				423E9372207DC452009FB5D0 /* KNSObjectAdditions.m in Sources */,
+				423E936F207DC28B009FB5D0 /* KPublicFunctions.m in Sources */,
 				4233A3C1207B45F0001E4735 /* KItemThirdVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
