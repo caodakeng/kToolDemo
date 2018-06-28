@@ -18,7 +18,7 @@
 #import "KCategory.h"
 #import "KThirdFile.h"
 #import "KToolManager.h"
-
+#import "KPublicFunctions.h"
 
 #endif
 

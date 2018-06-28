@@ -14,3 +14,5 @@
 UIWindow *mainWindow(void);
 
 
+//appVersion
+NSString *KAppVersion(void);

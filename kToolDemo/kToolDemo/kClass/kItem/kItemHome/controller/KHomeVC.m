@@ -8,6 +8,8 @@
 
 #import "KHomeVC.h"
 
+#import "KAddressBook.h"
+
 @interface KHomeVC ()
 
 @end
@@ -17,8 +19,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *str = [self getStr];
-    NSLog(@"%@",str);
+    
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    btn.backgroundColor = [UIColor redColor];
+//    btn.timeInterval = 1;
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
+//    NSString *str = [self getStr];
+//    NSLog(@"%@",str);
+}
+
+-(void)btnClick{
+//    NSLog(@"123");
 }
 
 -(NSString *)getStr{

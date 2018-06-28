@@ -28,6 +28,8 @@
 		426A91CB207A2C2D003A7A8B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 426A91C8207A2C2D003A7A8B /* Info.plist */; };
 		426A91CC207A2C2D003A7A8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A91C9207A2C2D003A7A8B /* main.m */; };
 		426A91D2207A2C8F003A7A8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 426A91D1207A2C8F003A7A8B /* AppDelegate.m */; };
+		42B81DBC20DB7B0F00CE1DF4 /* KAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B81DBB20DB7B0F00CE1DF4 /* KAddressBook.m */; };
+		42E9FB2720BE678200892B8C /* UIButton+Click.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E9FB2620BE678200892B8C /* UIButton+Click.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,10 @@
 		426A91C9207A2C2D003A7A8B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		426A91D0207A2C8F003A7A8B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		426A91D1207A2C8F003A7A8B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42B81DBA20DB7B0F00CE1DF4 /* KAddressBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KAddressBook.h; sourceTree = "<group>"; };
+		42B81DBB20DB7B0F00CE1DF4 /* KAddressBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KAddressBook.m; sourceTree = "<group>"; };
+		42E9FB2520BE678200892B8C /* UIButton+Click.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Click.h"; sourceTree = "<group>"; };
+		42E9FB2620BE678200892B8C /* UIButton+Click.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Click.m"; sourceTree = "<group>"; };
 		5E97BFCC823CFA37BDF8236D /* Pods-kToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kToolDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-kToolDemo/Pods-kToolDemo.release.xcconfig"; sourceTree = "<group>"; };
 		97B8DE11583205A4FDF0331F /* Pods-kToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kToolDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kToolDemo/Pods-kToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		E72C8E0B4873ED7D998F8369 /* libPods-kToolDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kToolDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -230,6 +236,8 @@
 				423E936A207DBAD8009FB5D0 /* KColorManager.m */,
 				423E936D207DC28B009FB5D0 /* KPublicFunctions.h */,
 				423E936E207DC28B009FB5D0 /* KPublicFunctions.m */,
+				42B81DBA20DB7B0F00CE1DF4 /* KAddressBook.h */,
+				42B81DBB20DB7B0F00CE1DF4 /* KAddressBook.m */,
 			);
 			path = kTools;
 			sourceTree = "<group>";
@@ -334,6 +342,8 @@
 				4233A3D0207B586B001E4735 /* NSObject+KAddBtn.m */,
 				423E9370207DC452009FB5D0 /* KNSObjectAdditions.h */,
 				423E9371207DC452009FB5D0 /* KNSObjectAdditions.m */,
+				42E9FB2520BE678200892B8C /* UIButton+Click.h */,
+				42E9FB2620BE678200892B8C /* UIButton+Click.m */,
 			);
 			path = kCategory;
 			sourceTree = "<group>";
@@ -578,9 +588,11 @@
 				4233A3D1207B586B001E4735 /* NSObject+KAddBtn.m in Sources */,
 				423E936B207DBAD8009FB5D0 /* KColorManager.m in Sources */,
 				426A91CC207A2C2D003A7A8B /* main.m in Sources */,
+				42E9FB2720BE678200892B8C /* UIButton+Click.m in Sources */,
 				4233A3D7207B6A40001E4735 /* KAccountModel.m in Sources */,
 				4233A3CA207B5726001E4735 /* NSObject+KCommonTools.m in Sources */,
 				4233A3B5207B3D10001E4735 /* KBaseViewController.m in Sources */,
+				42B81DBC20DB7B0F00CE1DF4 /* KAddressBook.m in Sources */,
 				4233A3C4207B4603001E4735 /* KItemMeVC.m in Sources */,
 				4233A3BE207B45DD001E4735 /* KItemSecondVC.m in Sources */,
 				4233A3B1207B392B001E4735 /* KRootTabBarController.m in Sources */,
@@ -734,10 +746,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = BBRAU6PH87;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "./kToolDemo/Supporting Files/ktoolDemo.pch";
+				GCC_PREFIX_HEADER = "./$(PRODUCT_NAME)/Supporting Files/ktoolDemo.pch";
 				INFOPLIST_FILE = "kToolDemo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -753,10 +767,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
 				DEVELOPMENT_TEAM = BBRAU6PH87;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "./kToolDemo/Supporting Files/ktoolDemo.pch";
+				GCC_PREFIX_HEADER = "./$(PRODUCT_NAME)/Supporting Files/ktoolDemo.pch";
 				INFOPLIST_FILE = "kToolDemo/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

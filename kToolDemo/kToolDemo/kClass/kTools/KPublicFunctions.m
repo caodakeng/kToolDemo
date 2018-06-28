@@ -30,3 +30,15 @@ UIWindow *mainWindow() {
 }
 
 
+
+
+
+
+
+#pragma mark - appVersion
+NSString *KAppVersion()
+{
+    NSDictionary *infoDic = [[NSBundle mainBundle] infoDictionary];
+    NSString *appVersion = [infoDic objectForKey:@"CFBundleShortVersionString"];
+    return appVersion;
+}
